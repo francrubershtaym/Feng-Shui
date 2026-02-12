@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+}
+body{
+    background: #F9F8F4;
+    min-width: 320px;
+
+}
+.container{
+    max-width: 1734px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}

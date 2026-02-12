@@ -1,0 +1,50 @@
+.banner {
+    background: url(../img/bg.png) no-repeat left bottom / cover;
+    height: 92svh;
+}
+
+.banner__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+}
+
+.banner__title {
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: clamp(2.188rem, 1.636rem + 2.76vw, 4.625rem);
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #EEEEEE;
+
+}
+
+.banner__desk {
+    max-width: 984px;
+    width: 100%;
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #EEEEEE;
+}
+
+.banner__link {
+    max-width: 264px;
+    width: 100%;
+    border: 1px solid #EEEEEE;
+    padding: 26px;
+    display: inline-block;
+    text-align: center;
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #EEEEEE;
+    transition: 0.3s;
+}
+.banner__link:hover{
+    background: #000;
+}

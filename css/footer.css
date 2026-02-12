@@ -1,0 +1,62 @@
+.footer {
+    border-top: 2px solid #242424;
+    padding: 136px 0;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__list {
+    display: flex;
+    align-items: center;
+    gap: 224px;
+}
+
+.footer__list-item_link {
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #242424;
+}
+
+.footer__follow {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.footer__follow-title {
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 90%;
+    color: #242424;
+}
+.footer__follow-social{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+@media screen and (max-width:1250px) {
+    .footer__list{
+        gap: 150px;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .footer__list{
+        gap: 50px;
+    }
+    
+}
+@media screen and (max-width:650px) {
+    .footer__list{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+}

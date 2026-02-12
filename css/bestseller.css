@@ -1,0 +1,268 @@
+.bestseller {
+    margin-bottom: 140px;
+}
+
+.bestseller__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.bestseller__parth {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bestseller__name {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bestseller__name-title {
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #242424;
+}
+
+.bestseller__name-line {
+    width: 144px;
+    height: 2px;
+    background: #242424;
+
+}
+
+.bestseller__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bestseller__desc-1 {
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #242424;
+}
+
+.bestseller__desc-2 {
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #6C6C6C;
+}
+
+.bestseller__carts {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 800px;
+}
+
+.bestseller__carts-midori {
+    max-width: 552px;
+    width: 100%;
+    background: url(../img/midori.png) no-repeat center / cover;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bestseller__carts-kyoto {
+    background: url(../img/kyoto.png) no-repeat center / cover;
+    max-width: 552px;
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bestseller__carts-haru {
+    background: url(../img/haru.png) no-repeat center / cover;
+    max-width: 552px;
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bestseller__carts-rinko {
+    background: url(../img/rinko.png) no-repeat center / cover;
+    max-width: 552px;
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bestseller__carts-shizuoka {
+    background: url(../img/shizudka.png) no-repeat center / cover;
+    max-width: 552px;
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bestseller__carts-kawa {
+    background: url(../img/kawa.png) no-repeat center / cover;
+    max-width: 552px;
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bestseller__carts-midori_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.bestseller__carts-midori_header-sale {
+    max-width: 120px;
+    width: 100%;
+    text-align: center;
+    background: #242424;
+    padding: 16px;
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #F9F8F4;
+
+}
+
+.bestseller__carts-midori_header-like {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.bestseller__carts-midori_header-like_link {
+    max-width: 60px;
+    width: 100%;
+    background: #F9F8F4;
+    text-align: center;
+    padding: 16px;
+
+}
+
+.bestseller__carts-midori_header-like_link:hover {}
+
+
+.bestseller__carts-midori_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bestseller__carts-midori_footer-title {
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #F9F8F4;
+}
+
+.bestseller__carts-midori_footer-pot {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bestseller__carts-midori_footer-desk {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.bestseller__carts-midori_footer-desc-1 {
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #F9F8F4;
+}
+
+.bestseller__carts-midori_footer-price {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bestseller__carts-midori_footer-price_name {
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #F9F8F4;
+}
+
+.bestseller__carts-midori_footer-price_link {
+    max-width: 200px;
+    width: 100%;
+    padding: 26px;
+    text-align: center;
+    background: #F9F8F4;
+    font-family: "Share Tech Mono", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #242424;
+    transition: 0.3s;
+}
+
+.midori__love path {
+    fill: transparent;
+}
+.midori__love:hover path{
+    fill: #242424;
+}
+.bestseller__carts-midori_header-like_link img{
+    fill: transparent;
+}
+.bestseller__carts-midori_header-like_link:hover img{
+    fill: #242424;
+}
+
+@media screen and (max-width:1700px) {
+
+    .bestseller__carts {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:1150px) {
+
+    .bestseller__carts {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:440px) {
+    .bestseller__name {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
