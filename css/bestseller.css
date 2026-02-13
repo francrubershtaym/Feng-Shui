@@ -68,7 +68,8 @@
 .bestseller__carts-midori {
     max-width: 552px;
     width: 100%;
-    background: url(../img/midori.png) no-repeat center / cover;
+    background:  url(../img/midori.png) no-repeat center / cover;
+    
     padding: 24px;
     display: flex;
     flex-direction: column;
@@ -229,6 +230,10 @@
     line-height: 100%;
     color: #242424;
     transition: 0.3s;
+}
+.bestseller__carts-midori_footer-price_link:hover{
+    background: #242424;
+    color: #F9F8F4;
 }
 
 .midori__love path {
