@@ -66,10 +66,10 @@
 }
 
 .bestseller__carts-midori {
-    max-width: 552px;
-    width: 100%;
-    background:  url(../img/midori.png) no-repeat center / cover;
-    
+
+
+    background: url(../img/midori.png) no-repeat center / cover;
+
     padding: 24px;
     display: flex;
     flex-direction: column;
@@ -77,9 +77,9 @@
 }
 
 .bestseller__carts-kyoto {
+
     background: url(../img/kyoto.png) no-repeat center / cover;
-    max-width: 552px;
-    width: 100%;
+
     padding: 24px;
     display: flex;
     flex-direction: column;
@@ -87,9 +87,9 @@
 }
 
 .bestseller__carts-haru {
+
     background: url(../img/haru.png) no-repeat center / cover;
-    max-width: 552px;
-    width: 100%;
+
     padding: 24px;
     display: flex;
     flex-direction: column;
@@ -97,9 +97,9 @@
 }
 
 .bestseller__carts-rinko {
+
     background: url(../img/rinko.png) no-repeat center / cover;
-    max-width: 552px;
-    width: 100%;
+
     padding: 24px;
     display: flex;
     flex-direction: column;
@@ -107,9 +107,9 @@
 }
 
 .bestseller__carts-shizuoka {
+
     background: url(../img/shizudka.png) no-repeat center / cover;
-    max-width: 552px;
-    width: 100%;
+
     padding: 24px;
     display: flex;
     flex-direction: column;
@@ -117,9 +117,9 @@
 }
 
 .bestseller__carts-kawa {
+
     background: url(../img/kawa.png) no-repeat center / cover;
-    max-width: 552px;
-    width: 100%;
+
     padding: 24px;
     display: flex;
     flex-direction: column;
@@ -163,7 +163,6 @@
 
 }
 
-.bestseller__carts-midori_header-like_link:hover {}
 
 
 .bestseller__carts-midori_footer {
@@ -231,7 +230,8 @@
     color: #242424;
     transition: 0.3s;
 }
-.bestseller__carts-midori_footer-price_link:hover{
+
+.bestseller__carts-midori_footer-price_link:hover {
     background: #242424;
     color: #F9F8F4;
 }
@@ -239,17 +239,20 @@
 .midori__love path {
     fill: transparent;
 }
-.midori__love:hover path{
-    fill: #242424;
-}
-.bestseller__carts-midori_header-like_link img{
-    fill: transparent;
-}
-.bestseller__carts-midori_header-like_link:hover img{
+
+.midori__love:hover path {
     fill: #242424;
 }
 
-@media screen and (max-width:1700px) {
+.bestseller__carts-midori_header-like_link img {
+    fill: transparent;
+}
+
+.bestseller__carts-midori_header-like_link:hover img {
+    fill: #242424;
+}
+
+@media screen and (max-width:1150px) {
 
     .bestseller__carts {
 
@@ -257,7 +260,7 @@
     }
 }
 
-@media screen and (max-width:1150px) {
+@media screen and (max-width:768px) {
 
     .bestseller__carts {
 
